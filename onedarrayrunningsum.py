@@ -7,6 +7,6 @@ def onedrunningsum(nums):
         l[i] = l[i-1] + nums[i]
     return l
 
-nums=[3,4,5,6,7]
+nums=[3,4,5,6,7,8]
 newnums=onedrunningsum(nums)
 print(newnums)
